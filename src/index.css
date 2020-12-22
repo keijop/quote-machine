@@ -1,13 +1,78 @@
+html {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	
+	
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("sky.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	
+	
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#quote-box{
+	display: flex;
+	border: 10px solid #F9D8D4;
+	border-radius: 5%;
+	flex-flow: column;
+	width: 40vw;
+	box-shadow: 2px 2px 3px pink;
+	
+
+}
+
+#text{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 5%;
+	color: #FADEDA;
+	font-weight: bold;
+
+}
+
+#author{
+	display: flex;
+	justify-content: center;
+	color: #FADEDA;
+	font-weight: bold;
+}
+
+#tweet_next{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+img {
+	height: 100%;
+	transition: 0.2s;
+}
+
+button {
+	background: #F2AAA1;
+	color: white;
+	border-radius: 40%;
+	border: none;
+	cursor: pointer;
+	transition: 0.2s;
+	margin-bottom: 5px;
+}
+
+button:hover{
+	transform: scale(1.1);
+	background: #ED877A;
+}
+img:hover {
+	opacity: 0.5;
+	transform: scale(1.1);
 }
