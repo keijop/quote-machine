@@ -1,2 +1,4 @@
 # quote-machine
-This is freecodecamp quote-machine challenge repository for my quote-machine React app with Create React App.
+freecodecamp quote-machine challenge   
+react app with create-react-app   
+https://keijop.github.io/quote-machine
